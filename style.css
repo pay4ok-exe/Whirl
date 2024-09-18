@@ -1,15 +1,18 @@
 body{
     margin: 0;    
-    padding: 0;
+    /* padding: 0; */
     box-sizing: border-box;
-    padding: 3rem 12rem 1rem 12rem;
+    padding: 3rem 12rem;
     height: 100vh;
-    width: 100vw;
+    /* width: 100vw; */
+
+    width: 100%;
     font-family: 'Times New Roman', Courier, sans-serif;
 }
 
 header{
     display: flex;
+    width: 100%;
     align-items: center;
     padding: 0 0 10px 0;
     border-bottom: 1px solid #ccc;
@@ -70,6 +73,7 @@ header{
 
 footer{
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: flex-end;
     padding: 20px 0 0 0;
@@ -110,12 +114,14 @@ footer{
 
 main{
     display: flex;
-    align-items: center;
+    width: 100%;
+    /* align-items: center; */
     flex-direction: column;
 }
 
 
 .features-container{
+    width: 100%;
     flex: 1  ;
     display: flex;
     justify-content: space-between;
@@ -151,4 +157,10 @@ main{
 
 .features-texts div{
     margin: 0;
+}
+
+.pricing-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
 }
