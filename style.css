@@ -160,7 +160,7 @@ main{
 }
 
 .pricing-container{
-    margin: 0 0 40px 0;
+    margin: 40px 0;
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -200,4 +200,56 @@ main{
     width: 117px;
     height: 34px;
 
+}
+
+.integration-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 0;
+}
+
+.i-container{
+    width: 355px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.i-container img{
+    margin-left: 30px;
+    height: 55px;
+    width: 55px;
+}
+
+.i-container h1{
+    margin: 0;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 31.25px;
+    text-align: left;
+}
+
+
+.i-container p{
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+}
+
+.fast{
+    background-color: #FAEA73;
+}
+
+.buck{
+    background-color: #CCEFF6;
+}
+
+.safe{
+    background-color :#F7CEDC;
 }
